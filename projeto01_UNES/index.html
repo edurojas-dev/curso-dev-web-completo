@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <title>UNES - Universidade</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto:wght@100;400&display=swap');
+        *{
+            margin: 0;
+            box-sizing: content-box;
+        }
+
+        body{
+            background-image: url("./img/fundo2.png");
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        #barraNavegacao > div{
+            max-width: 60%;
+            margin: 15px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media(max-width: 800px){
+            #barraNavegacao > div{
+                text-align: center;
+                display: block;
+            }
+
+            img{
+                width: 100%;
+            }
+
+            .links{
+                justify-content: center;
+            }
+        }
+
+        .links{
+            display: flex;
+            align-items: center;
+        }
+
+        .links a {
+            margin: 5px;
+            text-decoration: none;
+            color: #383F5D;
+            font-weight: 600;
+        }
+
+        .links a:hover{
+            color: #6D78A8;
+        }
+
+        hr{
+            height: 2px;
+            background-color: #6D78A8;
+        }
+        
+        #imgBanner{
+            width: 60%;
+        }
+
+        .texto{
+            width: 60%;
+            margin: auto auto;
+            text-align: justify;
+            margin-top: 10px;
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="barraNavegacao">
+        <div>
+            <a href="index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+            <div class="links">
+                <a href="index.html">Home</a> |
+                <a href="quemsomos.html">Quem Somos</a> |
+                <a href="contato.html">Contato</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="conteudoSite">
+        <section id="banner">
+            <img id="imgBanner" src="img/capa.png" alt="" style="display: block; margin: auto auto; border-radius: 5px;">
+        </section>
+    </div>
+
+    <div>
+        
+        <div class="texto">
+            <h1 style="border-bottom: 2px solid #6D78A8; margin-bottom: 20px;">
+                Sobre a Universidade
+            </h1>
+            <p>Nullam sollicitudin lorem quis purus condimentum molestie. Morbi fringilla vulputate sem et scelerisque. Praesent
+                sollicitudin est risus, sit amet consectetur ligula ullamcorper in.
+            </p>
+            <br>
+            <p>
+                Vestibulum laoreet placerat nisi at posuere.
+                Suspendisse libero erat, vestibulum sit amet est ac, pretium luctus urna. Donec eu nisi nibh. Integer volutpat dapibus
+                dolor et aliquam. Quisque euismod non orci vel iaculis. Quisque ultrices, dui eu luctus luctus, ipsum libero tempus
+                felis, sodales facilisis purus leo eget augue.
+            </p>
+        </div>
+    </div>
+
+
+    <footer style="padding: 10px; margin-top: 30px; background-color: #6D78A8; color: white; position: fixed; bottom: 0; width: 100%;">
+        <p style="text-align: center;">
+            <b>Todos os Direitos Reservados - 2021</b>
+        </p>
+    </footer>
+</body>
+</html>
