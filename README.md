@@ -9,6 +9,6 @@
 <hr>
 
 <ul>
-    <li>Projeto 01: UNES</li>
+    <li>[x] Projeto 01: UNES</li>
     <li>Projeto 02: TecBlog</li>
 </ul>
