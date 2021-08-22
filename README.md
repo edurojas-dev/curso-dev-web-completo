@@ -1,14 +1,13 @@
 <h1 align='center'>
     <img src='https://centrosoftware.com.br/wp-content/uploads/2020/10/543_378726_tech.hero_.jpg' width='40%'>
     <br>
-    <b>Desenvolvimento Web Completo 2021</b>
+    <b>Projetos do Curso de Desenvolvimento Web Completo 2021</b>
+    <br>
+    <b>--- Udemy ---</b>
 </h1>
-<h4 align='center'>
-    Repositório destinado para Projetos do Curso da Udemy<br>
-</h4>
 <hr>
 
 <ul>
-    <li>[x] Projeto 01: UNES</li>
-    <li>Projeto 02: TecBlog</li>
+    <li>[x] Projeto 01: UNES - Módulo <b>HTML5</b></li>
+    <li>Projeto 02: TecBlog - Módulo <b>CSS3</b></li>
 </ul>
