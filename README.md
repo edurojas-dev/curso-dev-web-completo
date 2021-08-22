@@ -1,9 +1,9 @@
  <h1 align='center'>
     <b>Desenvolvimento Web Completo 2021</b>
 </h1>
-<h2>
+<h4 align='center'>
     Repositório destinado para Projetos do Curso da Udemy<br>
-</h2>
+</h4>
 <hr>
 
 <ul>
