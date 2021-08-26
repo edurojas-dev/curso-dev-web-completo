@@ -26,7 +26,7 @@ let cardElement = (tituloPost, dataPost, urlImg, textoPost, linkPost) =>{
     `
 }
 let conteudos = []
-let urlConteudo = "../database/conteudos.json"
+let urlConteudo = "database/conteudos.json"
 let areaConteudo = document.getElementById("areaConteudo")
 fetch(urlConteudo).then((response)=>{
     response.json().then((data)=>{
