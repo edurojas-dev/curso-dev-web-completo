@@ -10,14 +10,12 @@ let navbar = `
 `
 let main = `
     <main>
-        <div class="conteudo">
-            <div>
-                <h2></h2>
-            </div>
+        <div class="conteudo" id='areaConteudo'>
+            
         </div>
-        <div class="postgens">
+        <!--<div class="postgens">
             <h2>postgens</h2>
-        </div>
+        </div>-->
     </main> 
 `
 let footer = `

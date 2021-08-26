@@ -1,0 +1,17 @@
+[
+    { 
+        "tituloPost": "Hello World JS", 
+        "dataPost": "25 de Agosto de 2021",
+        "urlImg": "https://miro.medium.com/max/1024/1*OohqW5DGh9CQS4hLY5FXzA.png", 
+        "textoPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula.",
+        "linkPost": "#"
+    },
+
+    { 
+        "tituloPost": "O que é XML?", 
+        "dataPost": "17 de Agosto de 2021",
+        "urlImg": "./img/imagem2.jpg", 
+        "textoPost": "Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luc.",
+        "linkPost": "https://www.instagram.com/p/CSuJAb-Lywg/"
+    }
+]
