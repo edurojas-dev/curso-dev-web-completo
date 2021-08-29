@@ -1,14 +1,14 @@
 let links = document.getElementById('links')
 let elementoHTML = (desc) => {
     return `
-        <a href="#">${desc}</a>
+        <a href="#" id=${desc}>${desc}</a>
     `
 }
 const descLinks = [
     {nomeLink : 'Home'},
     {nomeLink : 'Frontend'},
     {nomeLink : 'Backend'},
-    {nomeLink : 'Banco de Dados'},
+    {nomeLink : 'BancodeDados'},
     {nomeLink : 'Infraestrutura'},
 ]
 

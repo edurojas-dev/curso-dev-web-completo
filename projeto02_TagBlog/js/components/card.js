@@ -1,11 +1,12 @@
-let cardElement = (tituloPost, dataPost, urlImg, textoPost, linkPost) =>{
+let cardElement = (tituloPost, assunto, urlImg, textoPost, linkPost) =>{
     return `
-        <div class="card">
+        <div class="card ${assunto}">
             <div class="card-title">
                 <h2>
                     ${tituloPost}
                 </h2>
-            <span>Postado em ${dataPost}</span>
+                <hr>
+                <span>Assunto: ${assunto}</span>
             </div>
             <div class="card-body">
                 <div class="cardImg">
@@ -20,7 +21,7 @@ let cardElement = (tituloPost, dataPost, urlImg, textoPost, linkPost) =>{
                     <a href="${linkPost}" target="_blank">
                         Leia mais
                     </a>
-                </div>            
+                </div>
             </div>
         </div>
     `
@@ -32,16 +33,7 @@ fetch(urlConteudo).then((response)=>{
     response.json().then((data)=>{
         conteudos = data
         areaConteudo.innerHTML = conteudos.map((c)=>{
-            return cardElement(c.tituloPost, c.dataPost, c.urlImg, c.textoPost, c.linkPost)
+            return cardElement(c.tituloPost, c.assunto, c.urlImg, c.textoPost, c.linkPost)
         }).join('')
     })
 })
-
-setTimeout(() => {
-    let cards = document.querySelectorAll('.card')
-    cards.forEach(element => {
-        element.onclick = () =>{
-            element.classList.add("animated", "heartdBeat")
-        }
-    });
-}, 1000);

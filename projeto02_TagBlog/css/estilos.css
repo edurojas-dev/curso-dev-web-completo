@@ -65,6 +65,10 @@ main{
     margin: auto auto;
 }
 
+#areaConteudo{
+    display: flex;
+}
+
 .card{
     background-color: whitesmoke;
     box-shadow: 15px 15px 15px;
@@ -102,7 +106,10 @@ main{
 }
 
 /* media ate 800px - mobile */
-@media(max-width: 800px){
+@media(max-width: 1400px){
+    #areaConteudo{
+        flex-wrap: wrap;
+    }
     
     main{
         flex-direction: column;
@@ -149,5 +156,9 @@ main{
 
 .logo{
     width: 20%;
+    display: block;
+}
+
+.visible{
     display: block;
 }
