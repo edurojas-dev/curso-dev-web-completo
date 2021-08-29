@@ -9,9 +9,9 @@
 
 <ul>
     <li>
-        [x] Projeto 01: 
+        [x] Projeto 01: <br>
         # UNES - Módulo <b>HTML5</b>
-    
+        <br>
     </li>
     <li>[x] Projeto 02: TagBlog (tecBlog) - Módulo <b>CSS3</b></li>
     <li>Projeto 03: Site de Notícias - Módulo <b>CSS3 Intermediário & avançado</b></li>
