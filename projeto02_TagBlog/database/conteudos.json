@@ -32,9 +32,17 @@
     },
 
     { 
-        "tituloPost": "mySQL o que é?", 
+        "tituloPost": "O que é MySQL?", 
         "assunto": "BancodeDados",
         "urlImg": "https://www.cyclonis.com/images/2020/07/mysql-logo.jpg", 
+        "textoPost": "Ksaks Praesent nulla turpis, gravida at nunc eu, luc.",
+        "linkPost": "https://www.instagram.com/p/CSuJAb-Lywg/"
+    },
+
+    { 
+        "tituloPost": "O que é infraestrutura TI", 
+        "assunto": "infraestrutura",
+        "urlImg": "https://digicomp.com.br/wp-content/uploads/2017/03/18_jan-blog-infraestrutura_ti-digicomp-engenharia-tecnologia-bh-980x445.png", 
         "textoPost": "Ksaks Praesent nulla turpis, gravida at nunc eu, luc.",
         "linkPost": "https://www.instagram.com/p/CSuJAb-Lywg/"
     }

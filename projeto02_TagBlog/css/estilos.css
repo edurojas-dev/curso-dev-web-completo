@@ -78,6 +78,7 @@ main{
     padding: 15px;
     border-radius: 10px;
     margin: 30px 15px;
+    /* display: none !important; */
 }
 
 /* title card */
@@ -107,6 +108,21 @@ main{
 
 /* media ate 800px - mobile */
 @media(max-width: 1400px){
+    .cardLink a{
+        width: 35%;
+    }
+    
+
+    #titleSite, #links{
+        /* border: 2px solid green; */
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    #titleSite{
+        margin-bottom: -40px !important;
+    }
+
     #areaConteudo{
         flex-wrap: wrap;
     }
