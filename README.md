@@ -9,6 +9,7 @@
 
 <ul>
     <li>[x] Projeto 01: UNES - Módulo <b>HTML5</b></li>
-    <li>[x] Projeto 02: TecBlog - Módulo <b>CSS3</b></li>
+    <li>[x] Projeto 02: TagBlog (tecBlog) - Módulo <b>CSS3</b></li>
     <li>Projeto 03: Site de Notícias - Módulo <b>CSS3 Intermediário & avançado</b></li>
+    <li>Projeto 04: Site de Chalé Hotel - Módulo <b>CSS3 Intermediário & avançado</b></li>
 </ul>
