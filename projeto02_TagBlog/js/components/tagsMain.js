@@ -19,7 +19,12 @@ let main = `
     </main> 
 `
 let footer = `
-    <footer></footer>
+    <footer class=rodape>
+        <p>Todos os direitos Reservados 2021</p>
+        <p>
+            Desenvolvido por <a href="https://eduardorojas.com.br/" style="color: #000000; text-decoration: none;">Eduardo Rojas</a>
+        </p>
+    </footer>
 `
 
 let elementos = [

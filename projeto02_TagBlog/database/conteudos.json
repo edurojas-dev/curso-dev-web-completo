@@ -28,7 +28,7 @@
         "assunto": "Backend",
         "urlImg": "https://academiawordpress.com.br/wp-content/uploads/2019/09/2400%D1%851260-rw-blog-node-js.png", 
         "textoPost": "Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luc.",
-        "linkPost": "https://www.instagram.com/p/CSuJAb-Lywg/"
+        "linkPost": "#"
     },
 
     { 
@@ -36,7 +36,7 @@
         "assunto": "BancodeDados",
         "urlImg": "https://www.cyclonis.com/images/2020/07/mysql-logo.jpg", 
         "textoPost": "Ksaks Praesent nulla turpis, gravida at nunc eu, luc.",
-        "linkPost": "https://www.instagram.com/p/CSuJAb-Lywg/"
+        "linkPost": "#"
     },
 
     { 
@@ -44,6 +44,6 @@
         "assunto": "infraestrutura",
         "urlImg": "https://digicomp.com.br/wp-content/uploads/2017/03/18_jan-blog-infraestrutura_ti-digicomp-engenharia-tecnologia-bh-980x445.png", 
         "textoPost": "Ksaks Praesent nulla turpis, gravida at nunc eu, luc.",
-        "linkPost": "https://www.instagram.com/p/CSuJAb-Lywg/"
+        "linkPost": "#"
     }
 ]

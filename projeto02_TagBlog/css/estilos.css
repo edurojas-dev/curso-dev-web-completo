@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body, .rodape{
     background-color: #FFDE59;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -177,4 +177,19 @@ main{
 
 .visible{
     display: block;
+}
+
+.rodape{
+    padding: 15px;
+    background-color: #A6A6A6;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
