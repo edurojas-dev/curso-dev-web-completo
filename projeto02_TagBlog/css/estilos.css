@@ -11,7 +11,7 @@ body, .rodape{
 .navbar{
     /* border: 3px solid red; */
     background-color: #A6A6A6;
-    padding: 66px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +73,7 @@ main{
     background-color: whitesmoke;
     box-shadow: 15px 15px 15px;
     border: 1px solid rgb(207, 207, 207);
-    width: 500px;
+    width: 380px;
     margin: auto auto;
     padding: 15px;
     border-radius: 10px;
@@ -103,11 +103,11 @@ main{
     color: #F6CD46;
     margin-top: 5px;
     display: block;
-    width: 15%;
+    width: 20%;
 }
 
 /* media ate 800px - mobile */
-@media(max-width: 1400px){
+@media(max-width: 800px){
     .cardLink a{
         width: 35%;
     }
@@ -180,7 +180,7 @@ main{
 }
 
 .rodape{
-    padding: 15px;
+    /* padding: 15px; */
     background-color: #A6A6A6;
     height: 70px;
     position: fixed;
